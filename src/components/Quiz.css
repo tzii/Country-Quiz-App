@@ -1,0 +1,11 @@
+.game .flag {
+    border-radius: 4px;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+    height: 52px;
+    margin-top: 12px;
+}
+.game .question {
+    color: #2f527b;
+    font-size: 22px;
+    margin-top: 12px;
+}

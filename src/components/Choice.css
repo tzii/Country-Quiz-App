@@ -1,0 +1,54 @@
+.choice {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: rgba(96, 102, 208, 0.8);
+    border: 2px solid rgba(96, 102, 208, 0.7);
+    border-radius: 12px;
+    padding: 5px 50px 5px 20px;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 17px;
+    text-align: left;
+    cursor: pointer;
+    background-color: #ffffff;
+    min-height: 50px;
+}
+.choice:disabled {
+    cursor: unset;
+}
+.choice:hover:not(:disabled) {
+    background-color: #fbc977;
+    color: #ffffff;
+    transition: 0.2s;
+    border: none;
+}
+.choice.tick:not(:disabled) {
+    background-color: #f9a826;
+    color: #ffffff;
+    transition: 0.2s;
+    border: none;
+}
+.choice.tick:disabled:not(.true) {
+    background-color: #ea8282;
+    color: #ffffff;
+    transition: 0.2s;
+    border: none;
+}
+.choice.true {
+    background-color: #60bf88;
+    color: #ffffff;
+    transition: 0.2s;
+    border: none;
+}
+.choice > span:first-child {
+    margin-right: 40px;
+    font-size: 22px;
+}
+.choice > svg {
+    position: absolute;
+    right: 20px;
+    border: 2px solid #f2f2f2;
+    color: #f2f2f2;
+    border-radius: 10000px;
+}

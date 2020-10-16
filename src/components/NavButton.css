@@ -1,0 +1,61 @@
+.nav-btn {
+    display: flex;
+    flex-direction: column;
+}
+.nav-btn .start-btn {
+    align-self: center;
+    background-color: #f9a826;
+    color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.nav-btn .start-btn:hover {
+    box-shadow: 0px 2px 4px rgba(252, 168, 47, 0.4);
+    background-color: #ff9d00;
+}
+.nav-btn .start-btn:active {
+    background-color: #e88f00;
+}
+.nav-btn .next-btn {
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #f9a826;
+    border-radius: 12px;
+    padding: 10px 35px;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.nav-btn .next-btn:hover {
+    box-shadow: 0px 2px 4px rgba(252, 168, 47, 0.4);
+    background-color: #ff9d00;
+}
+.nav-btn .next-btn:active {
+    background-color: #e88f00;
+}
+.nav-btn .again-btn {
+    font-size: 17px;
+    color: #1d355d;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 2px solid #1d355d;
+    padding: 13px 60px;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 60px;
+    transition: 0.2s;
+}
+.nav-btn .again-btn:hover {
+    background-color: #fbc977;
+    color: #ffffff;
+    box-shadow: 1px 1px 4px rgba(29, 53, 93, 0.4);
+    border: none;
+}
+.nav-btn .again-btn:active {
+    background-color: #f9a826;
+    border: none;
+}

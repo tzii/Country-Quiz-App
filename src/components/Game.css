@@ -1,0 +1,19 @@
+.result .title {
+    margin-top: 30px;
+    color: #1d355d;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+}
+.result .content {
+    font-size: 17px;
+    color: #1d355d;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.result .content span {
+    font-size: 44px;
+    color: #6fcf97;
+    font-weight: 900;
+    line-height: 52px;
+}
