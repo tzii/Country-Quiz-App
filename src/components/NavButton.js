@@ -2,7 +2,6 @@ import React from "react";
 import { connect } from "react-redux";
 import { play, end } from "../store/currentStateSlice";
 import { getNewQuiz } from "../store/quizSlice";
-import { noAnswer } from "../store/answerStateSlice";
 import { resetResult } from "../store/resultSlice";
 import "./NavButton.css";
 
@@ -13,7 +12,6 @@ export const NavButton = ({
     play,
     end,
     getNewQuiz,
-    noAnswer,
     resetResult,
 }) => {
     const startHandler = () => {
@@ -24,14 +22,12 @@ export const NavButton = ({
     const nextHandler = () => {
         if (answerState === "TRUE") {
             getNewQuiz(data);
-            noAnswer();
         } else end();
     };
 
     const againHandler = () => {
         play();
         resetResult();
-        noAnswer();
         getNewQuiz(data);
     };
 
@@ -69,6 +65,6 @@ const mapStateToProps = (state) => ({
     answerState: state.answerState,
 });
 
-const mapDispatchToProps = { play, end, getNewQuiz, noAnswer, resetResult };
+const mapDispatchToProps = { play, end, getNewQuiz, resetResult };
 
 export default connect(mapStateToProps, mapDispatchToProps)(NavButton);

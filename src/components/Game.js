@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import Quiz from "./Quiz";
 import "./Game.css";
 
-export const Game = ({ currentState, quiz, result }) => {
+export const Game = ({ currentState, result }) => {
     if (currentState === "START") return null;
     else if (currentState === "PLAY") return <Quiz />;
     else if (currentState === "END")
@@ -18,7 +18,6 @@ export const Game = ({ currentState, quiz, result }) => {
 };
 
 const mapStateToProps = (state) => ({
-    quiz: state.quiz,
     currentState: state.currentState,
     result: state.result,
 });

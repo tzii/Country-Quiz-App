@@ -4,15 +4,14 @@ const getRandom = (min, max) => {
     return Math.floor(Math.random() * (max - min) + min);
 };
 
-const getChoices = (data, correctAnswer) => {
-    const hash = { [correctAnswer]: true };
-    const res = [{}, {}, {}].map(() => {
+const getChoices = (data) => {
+    const res = [];
+    for (let i = 0; i < 4; i++) {
         let pos = getRandom(0, data.length);
-        while (hash[data[pos]]) pos = getRandom(0, data.length);
-        hash[data[pos].name] = true;
-        return data[pos].name;
-    });
-    return [...res, correctAnswer].sort(() => Math.random() - 0.5);
+        while (res.includes(data[pos].name)) pos = getRandom(0, data.length);
+        res.push(data[pos].name);
+    }
+    return res;
 };
 
 const quizSlice = createSlice({
@@ -21,9 +20,10 @@ const quizSlice = createSlice({
     reducers: {
         getNewQuiz: (state, action) => {
             let r = getRandom(0, action.payload.length);
+            let choices = getChoices(action.payload);
             let res = {
-                correctAnswer: action.payload[r].name,
-                choices: getChoices(action.payload, action.payload[r].name),
+                correctAnswer: choices[getRandom(0, 4)],
+                choices,
             };
             if (getRandom(0, 2) === 0) {
                 res.type = "CAPITAL";
