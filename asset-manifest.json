@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Country-Quiz-App/static/css/main.32dbc198.chunk.css",
-    "main.js": "/Country-Quiz-App/static/js/main.bcc45344.chunk.js",
-    "main.js.map": "/Country-Quiz-App/static/js/main.bcc45344.chunk.js.map",
+    "main.js": "/Country-Quiz-App/static/js/main.bcb9e3a0.chunk.js",
+    "main.js.map": "/Country-Quiz-App/static/js/main.bcb9e3a0.chunk.js.map",
     "runtime-main.js": "/Country-Quiz-App/static/js/runtime-main.1de1e4f9.js",
     "runtime-main.js.map": "/Country-Quiz-App/static/js/runtime-main.1de1e4f9.js.map",
-    "static/js/2.1dcbb194.chunk.js": "/Country-Quiz-App/static/js/2.1dcbb194.chunk.js",
-    "static/js/2.1dcbb194.chunk.js.map": "/Country-Quiz-App/static/js/2.1dcbb194.chunk.js.map",
+    "static/js/2.4e43a341.chunk.js": "/Country-Quiz-App/static/js/2.4e43a341.chunk.js",
+    "static/js/2.4e43a341.chunk.js.map": "/Country-Quiz-App/static/js/2.4e43a341.chunk.js.map",
     "index.html": "/Country-Quiz-App/index.html",
-    "precache-manifest.862c8637a7f5ef6c62ff052a6bd34068.js": "/Country-Quiz-App/precache-manifest.862c8637a7f5ef6c62ff052a6bd34068.js",
+    "precache-manifest.2af418afe91a226e2dbf0d1b9459f555.js": "/Country-Quiz-App/precache-manifest.2af418afe91a226e2dbf0d1b9459f555.js",
     "service-worker.js": "/Country-Quiz-App/service-worker.js",
     "static/css/main.32dbc198.chunk.css.map": "/Country-Quiz-App/static/css/main.32dbc198.chunk.css.map",
-    "static/js/2.1dcbb194.chunk.js.LICENSE.txt": "/Country-Quiz-App/static/js/2.1dcbb194.chunk.js.LICENSE.txt",
+    "static/js/2.4e43a341.chunk.js.LICENSE.txt": "/Country-Quiz-App/static/js/2.4e43a341.chunk.js.LICENSE.txt",
     "static/media/1.svg": "/Country-Quiz-App/static/media/1.eae25da4.svg",
     "static/media/win.svg": "/Country-Quiz-App/static/media/win.82d9605a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1de1e4f9.js",
-    "static/js/2.1dcbb194.chunk.js",
+    "static/js/2.4e43a341.chunk.js",
     "static/css/main.32dbc198.chunk.css",
-    "static/js/main.bcc45344.chunk.js"
+    "static/js/main.bcb9e3a0.chunk.js"
   ]
 }

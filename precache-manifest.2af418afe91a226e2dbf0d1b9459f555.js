@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8162e8781654dd4ca11f8e901f493508",
+    "revision": "32dbc6198c8fc32b5904075e6d549c90",
     "url": "/Country-Quiz-App/index.html"
   },
   {
-    "revision": "1a89f5fbfe076185f69e",
+    "revision": "ae6767bb15c77da00ee0",
     "url": "/Country-Quiz-App/static/css/main.32dbc198.chunk.css"
   },
   {
-    "revision": "9e86ccaef9debf983d8a",
-    "url": "/Country-Quiz-App/static/js/2.1dcbb194.chunk.js"
+    "revision": "21e9bc9ad0b932f416c7",
+    "url": "/Country-Quiz-App/static/js/2.4e43a341.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/Country-Quiz-App/static/js/2.1dcbb194.chunk.js.LICENSE.txt"
+    "url": "/Country-Quiz-App/static/js/2.4e43a341.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1a89f5fbfe076185f69e",
-    "url": "/Country-Quiz-App/static/js/main.bcc45344.chunk.js"
+    "revision": "ae6767bb15c77da00ee0",
+    "url": "/Country-Quiz-App/static/js/main.bcb9e3a0.chunk.js"
   },
   {
     "revision": "83bd13860b7c1d82fae0",
